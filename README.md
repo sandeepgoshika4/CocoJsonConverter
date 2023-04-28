@@ -2,6 +2,7 @@
 This Code is used to convert Mask into Coco data format with semantic segmentation
 This code takes binary mask as input and converts them into COCO json format with specified label.
 
+```{python}
 # Label ids of the dataset
 category_ids = {
     "background": 0,
@@ -14,4 +15,5 @@ category_colors = {
     "(255, 255, 255)": 1  # damage
 }
 
+```
 Specific labeling is refferd to specific colour category
